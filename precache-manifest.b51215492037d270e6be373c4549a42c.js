@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "516a9eaf948b0ac5bc1a5f9eec55ce1c",
+    "revision": "6eb7aece6f4553696e936ec3a475c5ca",
     "url": "/wrongwong-react/index.html"
   },
   {
-    "revision": "73b22b4efc4f421623d7",
+    "revision": "3c80c19b96dd5466e8dc",
     "url": "/wrongwong-react/static/css/2.794d5f5b.chunk.css"
   },
   {
-    "revision": "42d7efc2aa39130606e2",
+    "revision": "7b086f23dde13d806c36",
     "url": "/wrongwong-react/static/css/main.24c17004.chunk.css"
   },
   {
-    "revision": "73b22b4efc4f421623d7",
-    "url": "/wrongwong-react/static/js/2.b133783a.chunk.js"
+    "revision": "3c80c19b96dd5466e8dc",
+    "url": "/wrongwong-react/static/js/2.a652e12c.chunk.js"
   },
   {
-    "revision": "42d7efc2aa39130606e2",
-    "url": "/wrongwong-react/static/js/main.4ca7e881.chunk.js"
+    "revision": "7b086f23dde13d806c36",
+    "url": "/wrongwong-react/static/js/main.15bb02a7.chunk.js"
   },
   {
     "revision": "e169ea30457f45e5d346",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/wrongwong-react/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "6077a7fc41ec9afcb026c4653529b5ba",
+    "url": "/wrongwong-react/static/media/header.6077a7fc.png"
   }
 ]);
