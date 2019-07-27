@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6eb7aece6f4553696e936ec3a475c5ca",
+    "revision": "40c15ae562137505859fd1fffa084c3b",
     "url": "/wrongwong-react/index.html"
   },
   {
-    "revision": "3c80c19b96dd5466e8dc",
+    "revision": "dc3cd36dbbf9769da9f8",
     "url": "/wrongwong-react/static/css/2.794d5f5b.chunk.css"
   },
   {
-    "revision": "7b086f23dde13d806c36",
-    "url": "/wrongwong-react/static/css/main.24c17004.chunk.css"
+    "revision": "97c6c6ccf55f70a6d0dd",
+    "url": "/wrongwong-react/static/css/main.5a792619.chunk.css"
   },
   {
-    "revision": "3c80c19b96dd5466e8dc",
-    "url": "/wrongwong-react/static/js/2.a652e12c.chunk.js"
+    "revision": "dc3cd36dbbf9769da9f8",
+    "url": "/wrongwong-react/static/js/2.3803561d.chunk.js"
   },
   {
-    "revision": "7b086f23dde13d806c36",
-    "url": "/wrongwong-react/static/js/main.15bb02a7.chunk.js"
+    "revision": "97c6c6ccf55f70a6d0dd",
+    "url": "/wrongwong-react/static/js/main.4fa29d06.chunk.js"
   },
   {
     "revision": "e169ea30457f45e5d346",
