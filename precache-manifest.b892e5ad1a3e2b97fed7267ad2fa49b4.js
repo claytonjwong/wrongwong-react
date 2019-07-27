@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40c15ae562137505859fd1fffa084c3b",
+    "revision": "ee7a65e8b0a9cd7bddc1e0240dee1a43",
     "url": "/wrongwong-react/index.html"
   },
   {
-    "revision": "dc3cd36dbbf9769da9f8",
+    "revision": "27fb746e9e0c8bce2bfb",
     "url": "/wrongwong-react/static/css/2.794d5f5b.chunk.css"
   },
   {
-    "revision": "97c6c6ccf55f70a6d0dd",
+    "revision": "3a765604f522165f9767",
     "url": "/wrongwong-react/static/css/main.5a792619.chunk.css"
   },
   {
-    "revision": "dc3cd36dbbf9769da9f8",
-    "url": "/wrongwong-react/static/js/2.3803561d.chunk.js"
+    "revision": "27fb746e9e0c8bce2bfb",
+    "url": "/wrongwong-react/static/js/2.72c681de.chunk.js"
   },
   {
-    "revision": "97c6c6ccf55f70a6d0dd",
-    "url": "/wrongwong-react/static/js/main.4fa29d06.chunk.js"
+    "revision": "3a765604f522165f9767",
+    "url": "/wrongwong-react/static/js/main.19843554.chunk.js"
   },
   {
     "revision": "e169ea30457f45e5d346",
