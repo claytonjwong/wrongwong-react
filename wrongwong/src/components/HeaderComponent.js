@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import {
-    Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron,
-    Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label
-} from 'reactstrap';
+import { Nav, Navbar, NavbarToggler, Collapse, NavItem, Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -44,13 +41,21 @@ class Header extends Component {
                 <Navbar dark expand="md">
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
+                        <Nav navbar className="mr-auto">
+                            <NavItem>
+                                <Button className="black-text bg-warning" onClick={this.toggleModal}>
+                                    <i className="fa fa-book fa-lg"></i>
+                                    {' '}Disclaimer
+                                </Button>
+                            </NavItem>
+                        </Nav>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav navbar className="">
                                 <NavItem>
                                     <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> Home</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to='/aboutus'><span className="fa fa-cutlery fa-lg"></span> Food</NavLink>
+                                    <NavLink className="nav-link" to='/food'><span className="fa fa-cutlery fa-lg"></span> Food</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link"  to='/move'><span className="fa fa-child fa-lg"></span> Move</NavLink>
@@ -66,14 +71,6 @@ class Header extends Component {
                                 </NavItem>
                             </Nav>
                         </Collapse>
-                        <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <Button className="btn btn-block btn-danger" onClick={this.toggleModal}>
-                                    <i className="fa fa-book fa-lg"></i>
-                                    {' '}Disclaimer
-                                </Button>
-                            </NavItem>
-                        </Nav>
                     </div>
                 </Navbar>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
